@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Spreadsheet project</title>
+</head>
+
+<body>
+
+    <section class="form_sections">
+        <div class="form_container shadow rounded">
+            <h3 class="d-flex justify-content-center align-items-center mt-4 pt-2 text-muted fw-bold">Your Order</h3>
+            <form action="https://script.google.com/macros/s/AKfycby9Hi8My4uK8OWXi8DYRxlHC-3s01LQga1CG5hPOZoiTtONHsJm9Eg6lL01ZQVK_6er/exec" method="post" class="t-5 p-5">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label fw-bold text-muted">Customer Name</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="name">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label fw-bold text-muted">Customer Number</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="number">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label fw-bold text-muted">Product Quantity</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="quantity">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label fw-bold text-muted">Condition</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="condition">
+                </div>
+                
+                <div class="d-flex justify-content-center align-items-center">
+                    <button type="submit" class="btn btn-primary fw-bold">Submit Your Order</button>
+                </div>
+                
+            </form>
+        </div>
+    </section>
+    <!-- Bootstrap JS link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
